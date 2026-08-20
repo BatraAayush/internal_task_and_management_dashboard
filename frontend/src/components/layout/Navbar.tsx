@@ -23,7 +23,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             </div>
             <div>
               <span className="font-bold text-white tracking-tight text-base">DevBoard</span>
-              <span className="hidden sm:inline-block ml-2 text-xs px-2 py-0.5 bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 rounded font-mono">v1.0</span>
+              {/* <span className="hidden sm:inline-block ml-2 text-xs px-2 py-0.5 bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 rounded font-mono">v1.0</span> */}
             </div>
           </div>
 

@@ -14,6 +14,7 @@ A full-stack internal management dashboard engineered to organize team workflows
 
 ## Project Structure
 
+```text
 internal_task_and_management_dashboard/
 ├── backend/
 │   ├── app/
@@ -43,6 +44,7 @@ internal_task_and_management_dashboard/
 │
 ├── .gitignore
 └── README.md
+```
 
 ---
 

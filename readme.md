@@ -63,12 +63,12 @@ internal_task_and_management_dashboard/
 
 2. Create and activate a Python virtual environment:
    #### Windows (PowerShell):
-   python -m venv venv
-   .\venv\Scripts\activate
+   #### python -m venv venv
+   #### .\venv\Scripts\activate
 
-    macOS / Linux:
-    python3 -m venv venv
-    source venv/bin/activate
+   #### macOS / Linux:
+   #### python3 -m venv venv
+   #### source venv/bin/activate
 
 3. Install required Python packages:
    pip install -r requirements.txt

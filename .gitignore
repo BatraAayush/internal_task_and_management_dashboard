@@ -1,0 +1,50 @@
+# ========================
+# Python & Backend
+# ========================
+backend/venv/
+backend/env/
+backend/ENV/
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.pytest_cache/
+
+# SQLite database file (generated locally via seed.py)
+backend/*.db
+backend/*.sqlite3
+
+# Backend Environment variables
+backend/.env
+backend/.env.local
+
+# ========================
+# Node.js & Frontend
+# ========================
+frontend/node_modules/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Production build output
+frontend/dist/
+frontend/build/
+
+# Frontend Environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ========================
+# IDE & System Files
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
